@@ -10,7 +10,7 @@ xhttp.onreadystatechange = function() {
 
     console.log(jsonData.devProfiles[4].name);
 
-    document.querySelector("#myName").innerHTML = jsonData.devProfiles[4].imagePath;
+    document.querySelector("#myPicture").innerHTML = "<img src='" + jsonData.devProfiles[4].imagePath + "' style='width:200px;height:200px;'>";
     document.querySelector("#myName").innerHTML = jsonData.devProfiles[4].name;
     document.querySelector("#myMajor").innerHTML = jsonData.devProfiles[4].major;
     document.querySelector("#myEmail").innerHTML = jsonData.devProfiles[4].email;

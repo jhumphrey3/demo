@@ -82,7 +82,7 @@
       },
       {
          "name":"Jarrod Humphrey",
-         "imagePath":"../lib/dev-profiles-resources/images/jared-devpic.jpg",
+         "imagePath":"jared-devpic.jpg",
          "picAlt":"Jared Profile",
          "link":"humphreys-dev-profile.html",
          "modal":"jaredModal",
